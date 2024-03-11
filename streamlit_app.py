@@ -3,13 +3,13 @@ from hugchat import hugchat
 from hugchat.login import Login
 
 # App title
-st.set_page_config(page_title="🤗💬 HugChat")
+st.set_page_config(page_title="🤗💬 Talia chat")
 
 # Hugging Face Credentials
 with st.sidebar:
-    st.title('🤗💬 HugChat')
+    st.title('🤗💬 Talia Chat')
     if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
-        st.success('HuggingFace Login credentials already provided!', icon='✅')
+        st.success('HuggingFace Login !', icon='✅')
         hf_email = st.secrets['EMAIL']
         hf_pass = st.secrets['PASS']
     else:
