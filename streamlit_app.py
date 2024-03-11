@@ -7,7 +7,7 @@ st.set_page_config(page_title="🤗💬 Talia chat")
 
 # Hugging Face Credentials
 with st.sidebar:
-    st.title( 💬 Talia Chat')
+    st.title( Talia Chat')
     if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
         st.success('HuggingFace Login !', icon='✅')
         hf_email = st.secrets['EMAIL']
